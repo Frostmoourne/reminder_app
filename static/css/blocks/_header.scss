@@ -1,0 +1,26 @@
+.header {
+    padding: 15px 10px;
+    background: rgb(55, 84, 250);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-left: 12px;
+}
+
+.btn-circle.btn-sm {
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 7px;
+}

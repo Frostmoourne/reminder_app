@@ -1,0 +1,25 @@
+body {
+    font-size: -apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,
+    "Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji",
+    "Segoe UI Symbol","Noto Color Emoji";
+    font-size: 15px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+/* Blocks */
+@import "blocks/container";
+@import "blocks/header";
+@import "blocks/info";
